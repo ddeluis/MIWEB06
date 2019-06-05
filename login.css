@@ -1,0 +1,33 @@
+html{
+
+ margin:0px;
+padding:0px;
+}
+.boxlogin{
+  border-radius: 4px;
+box - shadow:  0px 2px 10px #d6d6d6;
+marien: 100px auto;
+width: 320px;
+-webki-border-radius: 4px;
+-moz-border-radius: 4px;
+}
+
+input[type="submit"]{
+margin-top: 14px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Bootstrap Bootstrap Bootstrap Bootstrap" "columna1- columna2 columna3 ." "columna1- columna2 columna3 .";
+}
+
+.Bootstrap { grid-area: Bootstrap; }
+
+.columna1- { grid-area: columna1-; }
+
+.columna2 { grid-area: columna2; }
+
+.columna3 { grid-area: columna3; }

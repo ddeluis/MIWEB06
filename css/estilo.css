@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#lmu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue ;
+    center;
+  }
+  
+  .lm {
+    float: left;
+  }
+  
+  .lm a {
+    font-family: Roboto;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  .lm a:hover {
+    background-color:navy;
+  }
+  #t{
+    height: 50px;
+    font-family: Montserrat;
+    size:42px;
+    text-shadow: 2px;
+    color:navy;
+    text-align:center; 
+    font-weight: 900;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align-last: center;
+    background-color: azure;
+    border-radius:10px;
+box-shadow:10px 10px 10px gray;
+}
+.contenido{
+    font-family: Roboto;
+    size:22px;
+}
+.texto{
+    font-family: Roboto;
+    size:20px;
+    text-align: center;
+    color:navy;
+    font-weight: bold;
+}
+.ani {
+    position: relative;
+    margin: 2%;
+    overflow: hidden;
+ }
+  .ani img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .ani:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  #pnormal[
+border: solid 2px red;
+width:200px;
+height:200px;
+border-radius: 12px;
+box-shadow:10px 10px 10px gray;
